@@ -4,7 +4,13 @@
     "project": ["tsconfig.json"]
   },
   "plugins": ["@typescript-eslint", "prettier"],
-  "ignorePatterns": ["node_modules/", "next.config.js", "postcss.config.js"],
+  "ignorePatterns": [
+    "node_modules/",
+    "next.config.js",
+    "postcss.config.js",
+    ".github/ISSUE_TEMPLATE/🔴-bug--.md",
+    ".github/ISSUE_TEMPLATE/🔵-feature--.md "
+  ],
   "extends": [
     "next/core-web-vitals",
     "airbnb",
